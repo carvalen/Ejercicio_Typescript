@@ -1,4 +1,4 @@
-# Ejercicio_Typescript
+
 # Ejercicio_Typescript
 ### Plateamiento del ejercicio
 
