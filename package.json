@@ -1,0 +1,23 @@
+{
+  "name": "modulo_3_typescript",
+  "version": "1.0.0",
+  "description": "Se propone realizar unas clases para almacenar la lógica de una agenda con los datos personales de los individuos: direcciones, teléfonos, mails... Cada clase ha de crearse en un archivo TypeScript diferente.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carvalen/Ejercicio_Typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carvalen/Ejercicio_Typescript/issues"
+  },
+  "homepage": "https://github.com/carvalen/Ejercicio_Typescript#readme",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

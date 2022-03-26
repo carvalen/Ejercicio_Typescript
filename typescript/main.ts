@@ -104,12 +104,62 @@ const datosLucho = new Persona(
   "Tiene la segunda residencia alquilada todo el año"
 );
 
+const primeraResidenciaNoelia = new Direccion(
+  "Calle margarita ",
+  1,
+  8,
+  "A",
+  29600,
+  "Fuengirola",
+  "Malaga"
+)
+
+const segundaResidenciaNoelia = new Direccion(
+  "Calle Albarizas",
+  3,
+  false,
+  false,
+  29603,
+  "Marbella",
+  "Malaga"
+)
+
+const mailNoelia = new Mail(
+  "personal",
+  "noelia@gmail.com"
+)
+
+const telefonoFijoNoelia = new Telefono(
+  "fijo",
+  992929222
+)
+
+const telefonoMovilNoelia = new Telefono(
+  "movil",
+  676767666
+)
+
+const datosNoelia = new Persona(
+  'Noelia',
+  'Aranda Ardilla',
+  32,
+  '78988584T',
+  new Date(1990, 11, 26),
+  'amarillo',
+  'mujer',
+  [primeraResidenciaNoelia, segundaResidenciaNoelia],
+  [mailNoelia],
+  [telefonoFijoNoelia, telefonoMovilNoelia],
+  "Trabaja de lunes a viernes"
+);
 
 console.log("Contactos antes del cambio:");
 console.log(datosCarmen);
 console.log(datosLucho);
+console.log(datosNoelia);
 
-const agenda: Array<Persona> = new Array(datosCarmen, datosLucho);
+
+const agenda: Array<Persona> = new Array(datosCarmen, datosLucho, datosNoelia);
 
 const dniABuscar: string = "22222222T";
 
@@ -142,3 +192,4 @@ personaAEditar.agregarNuevoTelefono(nuevoTelefono);
 console.log("Contactos después del cambio:");
 console.log(datosCarmen);
 console.log(datosLucho);
+console.log(datosNoelia);
