@@ -23,8 +23,8 @@ const segundaResidenciaCarmen = new Direccion(
   "Barcelona"
 )
 
-const mailCarmen Mail(
-  
+const mailCarmen = new Mail(
+  "personal",
   "carmenva@gmail.com"
 )
 
